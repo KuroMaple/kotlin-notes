@@ -1,51 +1,29 @@
-# Notetaking App
-
-## Copy Right:
-Copyright (c) 2023. Colby Wang, Aicha Ghidaoui, Hassan Hashmi, Jerry Li.
-
-## Goal
-We intend to build a notetaking app for students who wish to take notes electronically in class. We hope to make the process of taking notes more efficient and more user friendly, and to have various functionalities such as code blocks.
-
-## Team members
-Team Member: 
-
-Colby Wang: c684wang@uwaterloo.ca
-
-Aicha Ghidaoui: aghidaou@uwaterloo.ca
-
-Hassan Hashmi: h4hashimi@uwaterloo.ca
-
-Jerry Li: zy37li@uwaterloo.ca
-
-## Quick-start
-First open docker on your machine and execute the following  terminal command: docker pull kuromaple/spring-server
+# Kotlin Notes 📝
+![Kotlin](https://img.shields.io/badge/Kotlin-%230095D5.svg?&style=for-the-badge&logo=kotlin&logoColor=white)
+![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=for-the-badge&logo=java&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 
-Next run the image on port 8080 via the command: docker run -p 8080:8080 kuromaple/spring-server
+## Overview
+**Kotlin Notes** is a desktop note-taking application built for computer science students to take, manage, and sync notes efficiently.  
+Key features include:  
+- Local storage of up to **10,000 notes** using SQLite  
+- Cloud synchronization via **Spring Boot** backend  
+- Real-time updates with **Docker-deployed server**  
+- Support for code blocks and rich text formatting  
+- Scalable architecture designed for performance  
 
 
-Lastly download the zip file from the releases/Final Submission folder and extract it. Navigate within the file via application-1.0.0/bin and run ./application from the command line.
+## My Contributions
+- Designed and implemented the **desktop UI** using JavaFX and Kotlin  
+- Developed a **custom database manager** for efficient local storage  
+- Integrated **cloud sync functionality** for real-time note updates  
+- Deployed the **backend server with Spring Boot and Docker**, ensuring scalability  
+- Collaborated with team members using GitHub for version control and project management  
 
 
+---
 
-## Screenshots/videos
-Optional, but often helpful to have a screenshot or demo-video for new users.
-
-## Releases
-version 0.1: released Feb 17, 2023
-	* [release-notes](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/blob/main/releases/v0.1-release-notes.md) (md)
-	* [installers](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/blob/main/releases/Application_v.0.1.zip) (application)
-	
-version 0.2: released Mar 10, 2023
-	* [release-notes](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/blob/main/releases/v0.2-release-notes.md) (md)
-	* [installers](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/tree/main/releases/Sprint%202%20demo%20executeables) (application)
-
-version 0.3: released Mar 24, 2023
-	* [release-notes](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/blob/main/releases/v0.3-release-notes.md) (md)
-	* [installers](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/tree/main/releases/Sprint%202%20demo%20executeables) (application)
-
-
-version 0.4: released April 10, 2023
-	* [release-notes](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/blob/main/releases/v0.4-release-notes.md) (md)
-	* [installers](https://gitlab.uwaterloo.ca/c684wang/notetaking-app/-/tree/main/releases/Final%20Submission) (application)
-
+🖋️ *Take notes smarter, not harder!* 📖
